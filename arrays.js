@@ -33,3 +33,6 @@ function destructivelyAddElementToEndOfArray(list, element){
   list.push(element);
   return list;
 }
+
+
+function accessElementInArray
