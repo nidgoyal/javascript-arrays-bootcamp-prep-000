@@ -12,9 +12,9 @@ var chocolateBars= [
   'skittles'
 ]
 chocolateBars();
+[1,2,3,], 7
 
-
-function addElementToBeginningOfArray(){
+function addElementToBeginningOfArray(array,element){
   array.unshift("foo");
   return array;
 }
