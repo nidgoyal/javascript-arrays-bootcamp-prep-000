@@ -14,17 +14,14 @@ var chocolateBars= [
 chocolateBars();
 
 
-function addElementToBeginningOfArray(array,element){
-  array.unshift("foo");
+function addElementToBeginningOfArray(list,element){
+  list.unshift(element);
+  return list;
+}
+
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array = [element,...array];
   return array;
 }
-addElementToBeginningOfArray();
-
-
-var newArray = [1];
-function destructivelyAddElementToBeginningOfArray(array, element){
-  newArray = [element,...newArray];
-  return newArray;
-}
-destructivelyAddElementToBeginningOfArray(newArray,"foo");
 
