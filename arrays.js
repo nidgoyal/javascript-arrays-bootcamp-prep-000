@@ -15,7 +15,7 @@ chocolateBars();
 
 
 function addElementToBeginningOfArray(array,element){
-  return [...array, element];
+  return [element,...array];
 }
 
 
@@ -25,7 +25,7 @@ function destructivelyAddElementToBeginningOfArray(list, element){
 }
 
 function addElementToEndOfArray(array,element){
-  return [array,...element];
+  return [...array, element];
 }
 
 
