@@ -22,7 +22,7 @@ function addElementToBeginningOfArray(){
 addElementToBeginningOfArray();
 
 
-var newArray = [1];
+const newArray = [1];
 function destructivelyAddElementToBeginningOfArray(array, element){
   newArray = [element,...newArray];
   return newArray;
