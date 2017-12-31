@@ -13,9 +13,10 @@ var chocolateBars= [
 ]
 chocolateBars();
 
-var array= [];
+
 function addElementToBeginningOfArray(){
-  array.unshift("",'foo')
+ var array= [1];
+  array.unshift("foo");
   return array;
 }
 addElementToBeginningOfArray();
