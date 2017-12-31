@@ -21,10 +21,11 @@ function addElementToBeginningOfArray(){
 }
 addElementToBeginningOfArray();
 
+
 var newArray = [1];
 function destructivelyAddElementToBeginningOfArray(array, element){
-  new2Array = [element,...newArray];
-  return new2Array;
+  newArray = [element,...newArray];
+  return newArray;
 }
 destructivelyAddElementToBeginningOfArray(newArray,"foo");
 
