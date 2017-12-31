@@ -35,4 +35,6 @@ function destructivelyAddElementToEndOfArray(list, element){
 }
 
 
-function accessElementInArray
+function accessElementInArray(array, position){
+  console.log(array[position]);
+}
