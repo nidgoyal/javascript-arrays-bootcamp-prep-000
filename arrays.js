@@ -24,3 +24,12 @@ function destructivelyAddElementToBeginningOfArray(list, element){
   return list;
 }
 
+function addElementToEndOfArray(array,element){
+  return [array,...element];
+}
+
+
+function destructivelyAddElementToEndOfArray(list, element){
+  list.push(element);
+  return list;
+}
