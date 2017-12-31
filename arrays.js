@@ -10,7 +10,7 @@ var chocolateBars= [
   'hundred grand',
   'kitkat',
   'skittles'
-];
+]
 chocolateBars();
 
 var array= [];
